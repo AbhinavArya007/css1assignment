@@ -1,6 +1,9 @@
     body {
         background: url("image.html.jpg");
         text-align: center;
+        border: 5px solid yellowgreen;
+    padding-top: 10px;
+    margin: 0;
     }
     
     .container {
