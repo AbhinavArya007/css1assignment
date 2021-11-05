@@ -231,16 +231,24 @@ body {
     height: 250px;
 }
 
+.three {
+    transition-timing-function: linear;
+}
+
 .three:hover {
     width: 300px;
 }
 
 .four {
-    transition: width 4s;
+    transition-timing-function: ease;
 }
 
 .four:hover {
     width: 300px;
+}
+
+.five {
+    transition-timing-function: ease-in;
 }
 
 .five:hover {
@@ -248,11 +256,15 @@ body {
 }
 
 .six {
-    transition: width 6s;
+    transition-timing-function: ease-out;
 }
 
 .six:hover {
     width: 300px;
+}
+
+.seven {
+    transition-timing-function: ease-in-out;
 }
 
 .seven:hover {
